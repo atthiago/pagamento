@@ -1,0 +1,16 @@
+.form{
+    margin-left: 500px;
+}
+.pagar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: black;
+    font-weight:bold;
+    text-shadow: #FF9A84;
+    font-variant:small-caps;
+}
+
+.QR img {
+    width: 20%;
+}

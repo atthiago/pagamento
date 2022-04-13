@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagamento.css">
+    
+    <title>Pag. Cartão</title>
+</head>
+<body>
+    <img src="./img/figprin.png" alt="logo">
+    <br><br><br>
+    <div class="pagar">
+        <h3>Preencha os seus dados e do cartão abaixo para pagar</h3>
+    </div> 
+
+    <div class="form">
+        <input type="text" id="nomeid" placeholder="thiaguinho" required="required" name="nome" />
+        <label for="nome">Nome</label>
+        <br>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        <label for="fone">Fone</label>
+        <br>
+        <input type="email" id="emailid" placeholder="thiaguinho@gmail.com" name="email" />
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="emailid" placeholder="123.456.789-00" name="CPF" />
+        <label for="CPF">CPF</label>
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Cadastrar" />
+    </div>
+    <br>
+    <br>
+    <div class="pagar">
+        <h3>Cartão:</h3>
+    </div>
+     <div class="form">
+        <input type="text" id="nomeid" placeholder="xxx xxxx xxx" required="required" name="nome" />
+        <label for="nome">Número</label>
+        <br>
+        <input type="text" id="foneid" placeholder="xxx" name="fone" />
+        <label for="fone">CV</label>
+        <br>
+        <input type="text" id="emailid" placeholder="Thiago Martins" name="email" />
+        <label for="email">titular</label>
+        <br>
+        <input type="text" id="emailid" placeholder="Escolha uma opção válida" list="faixa">
+        <label for="email">bandeira</label>
+            <datalist id="faixa">
+                <option >visa</option>
+                <option >mastercard</option>
+                <option >elo</option>
+            </datalist>
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Pagar" />
+    </div>
+
+</body>
+</html>

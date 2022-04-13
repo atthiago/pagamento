@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="pagamento.css">
+    <title>Pag. Boleto</title>
+</head>
+<body>
+    <img src="./img/figprin.png" alt="logo">
+    <br><br><br>
+    <div class="pagar">
+        <h3>Preencha os dados abaixo que o o boleto serar enviado por email</h3>
+    </div>
+    <div class="form">
+        <input type="text" id="nomeid" placeholder="thiaguinho" required="required" name="nome" />
+        <label for="nome">Nome</label>
+        <br>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        <label for="fone">Fone</label>
+        <br>
+        <input type="email" id="emailid" placeholder="thiaguinho@gmail.com" name="email" />
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="emailid" placeholder="123.456.789-00" name="CPF" />
+        <label for="CPF">CPF</label>
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Cadastrar" />
+    </div>
+
+      <script src="Index.js"></script>
+</body>
+</html>
